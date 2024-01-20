@@ -1,6 +1,6 @@
 
 
-
+//it routes the controllers for option delete and addvote 
 const express = require('express');
 const questionController = require('../../../controllers/questionController');
 const optionController = require('../../../controllers/optionsController');
