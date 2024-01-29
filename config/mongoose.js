@@ -2,7 +2,7 @@
 //connect the mongodb
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1/poolingApi');
+mongoose.connect('mongodb+srv://pavannaru56:yeISXySkrESURxpF@cluster0.rpjclhn.mongodb.net/api-pool-system?retryWrites=true&w=majority');
 
 const db = mongoose.connection;
 
